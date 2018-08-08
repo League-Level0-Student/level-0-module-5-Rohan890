@@ -16,10 +16,10 @@ String name=JOptionPane.showInputDialog("Enter your name");
 		//    Run your program to see that this works.
 System.out.println(name.toUpperCase());
 		// 3. Loop through each character of the name (steps 4 - 6).
-for (int i = 0; i < 6; i++) {
+for (int i = 0; i < .length; i++) {
 	
 }
-		//    HINT: Use .length() to determine the number of characters in the String.
+//    HINT: Use .length() to determine the number of characters in the String.
 
 			// 4. Create a String variable to store the next character of the name
 			//    using .substring(start, end)

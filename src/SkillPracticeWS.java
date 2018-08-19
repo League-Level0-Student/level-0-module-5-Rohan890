@@ -91,12 +91,12 @@ void skill4() { // In a pop-up, ask the user for the city they live in
 }
 
 void skill5() { // In a pop-up, ask the user for the name of their school 
-
+String School = JOptionPane.showInputDialog("Type the name of your school?");
 
 
 // In another pop-up, tell the user, that their school is a fantastic school. // You must include the name of the school in the message. 
 
-
+System.out.println(School + " is fantastic");
 
 }
 }
